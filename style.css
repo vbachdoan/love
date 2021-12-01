@@ -130,7 +130,7 @@ body{
 }
 input{
     height: 40px;
-    width: 250px;
+    width: 200px;
     padding: 0px 20px;
     border-radius: 30px;
     border: 0.5px solid #ccc;
@@ -171,6 +171,10 @@ svg{
 }
 #output-box{
     position: absolute;
-    bottom: 100%;
     transition: .5s ease-in-out;
+}
+#output-box p{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
